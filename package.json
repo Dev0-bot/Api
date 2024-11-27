@@ -48,6 +48,7 @@
     "destroy": "^1.2.0",
     "detect-libc": "^2.0.3",
     "diff": "^4.0.2",
+    "dotenv": "^16.4.5",
     "edge-runtime": "^2.5.9",
     "ee-first": "^1.1.1",
     "emoji-regex": "^8.0.0",
@@ -225,7 +226,8 @@
     "yn": "^3.1.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js"
   },
   "keywords": [],
   "author": "",

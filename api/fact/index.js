@@ -1,4 +1,4 @@
-// api/fact.js
+// api/fact
 export default function handler(req, res) {
     const facts = [
       { fact: "Honey never spoils. Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old!" },

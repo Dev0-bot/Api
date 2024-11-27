@@ -1,4 +1,4 @@
-// api/random-joke.js
+// api/random-joke
 export default async function handler(req, res) {
     try {
       const response = await fetch('https://v2.jokeapi.dev/joke/Programming?type=single');

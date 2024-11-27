@@ -1,20 +1,40 @@
 {
-    "message": "Welcome to Dev0s JSON API!",
-    "endpoints": [
-      {
-        "Info": "Try using a wrapper :3",
-        "NodeJS": "WIP",
-        "Python": "WIP"
-      }
-    ],
-    "Warappers": [
+  "message": "Welcome to Dev0s JSON API!",
+  "warappers": [
+    {
+      "Info": "Try using a wrapper :3",
+      "NodeJS": "WIP",
+      "Python": "WIP"
+    }
+  ],
+  "endpoints": {
+    "animals": [
       "GET /api/cat",
+      "GET /api/dog"
+    ],
+    "color": [
       "GET /api/color/<HEX>",
-      "GET /api/dog",
+      "GET /api/color/random"
+    ],
+    "currency": [
+      "GET /api/currency/convert?amount=<int>&from=<currency>&to=<currency>"
+    ],
+    "external": [
+      "GET /api/external/random-joke"
+    ],
+    "info": [
+      "GET /api/status",
+      "GET /api/hello",
+      "GET /api/404",
+      "GET /api/index"
+    ],
+    "other": [
+      "GET /api/emoji/<name>",
       "GET /api/fact",
-      "GET /api/joke",
-      "GET /api/programming-quote",
-      "GET /api/quote",
-      "GET /api/random-joke"
+      "GET /api/joke"
+    ],
+    "quote": [
+      "GET /api/quote?type=<type>"
     ]
+  }
 }
