@@ -26,6 +26,7 @@
     "buffer-crc32": "^0.2.13",
     "bytes": "^3.1.2",
     "call-bind": "^1.0.7",
+    "canvas": "^2.11.2",
     "chokidar": "^4.0.0",
     "chownr": "^1.1.4",
     "cjs-module-lexer": "^1.2.3",
@@ -183,8 +184,8 @@
     "statuses": "^2.0.1",
     "stream-to-array": "^2.3.0",
     "stream-to-promise": "^2.2.0",
-    "string-width": "^4.2.3",
     "string_decoder": "^1.3.0",
+    "string-width": "^4.2.3",
     "strip-ansi": "^6.0.1",
     "strip-final-newline": "^2.0.0",
     "tar": "^4.4.18",
@@ -223,7 +224,6 @@
     "yauzl-promise": "^2.1.3",
     "yn": "^3.1.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
