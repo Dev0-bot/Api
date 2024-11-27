@@ -32,6 +32,7 @@ const apiEndpoints = [
 "GET /nft/<hex>",
 "GET /nft/<hex>/<season>",
 "GET /pornhub?text=text&text2=text",
+"GET /quote",
 "GET /sadcat",
 "GET /scroll?text=text",
 "GET /sillycat",
