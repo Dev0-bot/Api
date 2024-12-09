@@ -1,6 +1,4 @@
 // api/color/image/[hex]
-import { createCanvas } from 'canvas';
-
 export default async function handler(req, res) {
   try {
     const { hex } = req.query;
